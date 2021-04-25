@@ -1,4 +1,5 @@
-/* Distribution code proided by the CS50 staff
+/* Runoff election system
+ * Distribution code proided by the CS50 staff
  * I had to implement the six functions  listed in the prototypes 
  *
  * CS50x 2021
@@ -211,7 +212,6 @@ bool is_tie(int min)
 // Eliminate the candidate (or candidates) in last place
 void eliminate(int min)
 {
-    // TODO
     for (int i = 0; i < candidate_count; i++)
     {
         if (candidates[i].votes == min && !candidates[i].eliminated)
@@ -221,4 +221,3 @@ void eliminate(int min)
     }
     return;
 }
-
