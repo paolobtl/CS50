@@ -1,3 +1,12 @@
+ /********************************************************************
+  * Assignment: https://cs50.harvard.edu/x/2022/psets/1/mario/more/  *
+  * Goal: Print a pyramid                                            *
+  *                                                                  *
+  * @ Paolo Bietolini                                                *
+  * 2022                                                             *
+  ********************************************************************/
+
+
 #include <cs50.h>
 #include <stdio.h>
 
