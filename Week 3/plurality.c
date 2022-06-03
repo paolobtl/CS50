@@ -1,11 +1,11 @@
-/* Plurality election system
- * Distribution code proided by the CS50 staff
- * I had to implement the two functions  listed in the prototypes 
- *
- * CS50x 2021
- * Week 3
- * Paolo Bietolini 
- */
+ /********************************************************************
+  * Assignment: https://cs50.harvard.edu/x/2022/psets/3/plurality/   *
+  * Goal: Plurality election system                                  *
+  *                                                                  *
+  *                                                                  *
+  * @ Paolo Bietolini                                                *
+  * 2022                                                             *
+  ********************************************************************/
  
 #include <cs50.h>
 #include <stdio.h>
