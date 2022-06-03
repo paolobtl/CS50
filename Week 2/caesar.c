@@ -1,3 +1,12 @@
+ /********************************************************************
+  * Assignment: https://cs50.harvard.edu/x/2022/psets/2/caesar/      *
+  * Goal: Cypher a text using a given key                            *
+  *                                                                  *
+  * @ Paolo Bietolini                                                *
+  * 2022                                                             *
+  ********************************************************************/
+
+
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
