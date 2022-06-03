@@ -1,11 +1,11 @@
-/* Runoff election system
- * Distribution code proided by the CS50 staff
- * I had to implement the six functions  listed in the prototypes 
- *
- * CS50x 2021
- * Week 3
- * Paolo Bietolini 
- */
+ /********************************************************************
+  * Assignment: https://cs50.harvard.edu/x/2022/psets/3/runoff/      *
+  * Goal: Plurality election system                                  *
+  *                                                                  *
+  *                                                                  *
+  * @ Paolo Bietolini                                                *
+  * 2022                                                             *
+  ********************************************************************/
 
 #include <cs50.h>
 #include <stdio.h>
