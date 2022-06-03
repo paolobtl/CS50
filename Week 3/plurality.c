@@ -6,7 +6,7 @@
   * @ Paolo Bietolini                                                *
   * 2022                                                             *
   ********************************************************************/
- 
+
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
@@ -75,7 +75,6 @@ int main(int argc, string argv[])
 // Update vote totals given a new vote
 bool vote(string name)
 {
-    // TODO
     for (int i = 0; i < candidate_count; i++)
         if (strcmp(candidates[i].name, name) == 0)
         {
@@ -88,21 +87,27 @@ bool vote(string name)
 // Print the winner (or winners) of the election
 void print_winner(void)
 {
-    // TODO
-    int max = 0;
+    // Create and variable and set it to 0
+    int maximum_vote = 0;
+
+    // Iterate over list of candidate
     for (int i = 0; i < candidate_count; i++)
     {
-        if (candidates[i].votes > max)
+        // Check for candidate votes that are  greater than maximum_vote and set them to maximum_vote
+        if (candidates[i].votes > maximum_vote)
         {
-            max = candidates[i].votes;
+            maximum_vote = candidates[i].votes;
         }
-        
-        if (candidates[i].votes == max)   
+    }
+
+    // Iterate over list of candidate
+    for (int i = 0; i < candidate_count; i++)
+    {
+        // Check for candidate votes that are equal to maximum vote and print them as you go
+        if (candidates[i].votes == maximum_vote)
         {
             printf("%s\n", candidates[i].name);
         }
     }
-    
     return;
 }
-
